@@ -1,7 +1,642 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60c9278a-c99e-46be-a9d2-8fc0970eaa82" name="Default Changelist" comment="" />
+    <list default="true" id="60c9278a-c99e-46be-a9d2-8fc0970eaa82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/COLLECT-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/PKG-00.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/main.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/main.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/warn-main.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/xref-main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/MSVCP140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/bin/d3dcompiler_47.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/bin/libEGL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/bin/libGLESv2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/bin/opengl32sw.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/iconengines/qsvgicon.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/qgif.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/qicns.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/qico.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/qjpeg.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/qsvg.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/qtga.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/qtiff.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/qwbmp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/imageformats/qwebp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/platforms/qminimal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/platforms/qoffscreen.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/platforms/qwebgl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/platforms/qwindows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/platformthemes/qxdgdesktopportal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/plugins/styles/qwindowsvistastyle.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_ar.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_bg.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_ca.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_cs.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_da.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_de.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_en.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_es.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_fi.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_fr.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_gd.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_he.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_hu.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_it.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_ja.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_ko.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_lv.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_pl.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_ru.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_sk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_uk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/Qt/translations/qtbase_zh_TW.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/QtCore.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/QtGui.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/QtWidgets.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/PyQt5/sip.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/Qt5Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/Qt5DBus.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/Qt5Gui.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/Qt5Network.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/Qt5Qml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/Qt5Quick.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/Qt5Svg.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/Qt5WebSockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/Qt5Widgets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/VCRUNTIME140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_bz2.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_ctypes.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_decimal.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_hashlib.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_lzma.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_queue.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_socket.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_ssl.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/libGLESv2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/libcrypto-1_1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/libssl-1_1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/main.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/main.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/pyexpat.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/python3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/python37.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/select.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/unicodedata.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller-3.4.dist-info/COPYING.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller-3.4.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller-3.4.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller-3.4.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller-3.4.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller-3.4.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller-3.4.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/archive/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/archive/pyz_crypto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/archive/readers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/archive/writers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/bootloader/Darwin-64bit/run" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/bootloader/Darwin-64bit/run_d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/bootloader/Darwin-64bit/runw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/bootloader/Darwin-64bit/runw_d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/bootloader/Linux-32bit/run" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/bootloader/Linux-32bit/run_d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/bootloader/Linux-64bit/run" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/bootloader/Linux-64bit/run_d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/bootloader/Windows-32bit/run.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/bootloader/Windows-32bit/run_d.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/bootloader/Windows-32bit/runw.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/bootloader/Windows-32bit/runw_d.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/bootloader/Windows-64bit/run.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/bootloader/Windows-64bit/run_d.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/bootloader/Windows-64bit/runw.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/bootloader/Windows-64bit/runw_d.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/bootloader/images/github_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/bootloader/images/icon-console.icns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/bootloader/images/icon-console.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/bootloader/images/icon-console.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/bootloader/images/icon-windowed.icns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/bootloader/images/icon-windowed.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/bootloader/images/icon-windowed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/building/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/building/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/building/build_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/building/datastruct.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/building/imphook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/building/imphookapi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/building/makespec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/building/osx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/building/templates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/building/toc_conversion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/building/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/configure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/depend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/depend/analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/depend/bindepend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/depend/dylib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/depend/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/fake-modules/site.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-Crypto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-Cryptodome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-IPython.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-OpenGL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-OpenGL_accelerate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PIL.Image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PIL.SpiderImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PIL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.Qt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.Qt3Support.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.QtAssistant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.QtCore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.QtGui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.QtHelp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.QtNetwork.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.QtOpenGL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.QtScript.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.QtSql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.QtSvg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.QtTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.QtWebKit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.QtXml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.Qwt5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.phonon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt4.uic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.Qt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtCore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtGui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtHelp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtMultimedia.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtNetwork.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtOpenGL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtPrintSupport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtQml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtQuick.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtQuickWidgets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtScript.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtSensors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtSerialPort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtSql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtSvg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtWebEngineWidgets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtWebKit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtWebKitWidgets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtWidgets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.QtXml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PyQt5.uic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide.QtCore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide.QtGui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide.QtSql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide.phonon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtCore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtGui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtHelp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtMultimedia.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtNetwork.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtOpenGL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtPrintSupport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtQml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtQuick.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtQuickWidgets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtScript.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtSensors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtSerialPort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtSql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtSvg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtWebEngineWidgets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtWebKit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtWebKitWidgets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtWidgets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide2.QtXml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide2.Qwt5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-PySide2.uic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-Xlib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-_mssql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-_mysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-_tkinter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-accessible_output2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-adios.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-amazonproduct.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-appdirs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-appy.pod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-astroid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-babel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-bacon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-bokeh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-boto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-boto3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-botocore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-certifi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-clr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-countrycode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-cryptography.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-cv2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-cx_Oracle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-cytoolz.itertoolz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-dclab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-distorm3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-distutils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-django.contrib.sessions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-django.core.cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-django.core.mail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-django.core.management.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-django.db.backends.mysql.base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-django.db.backends.oracle.base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-django.db.backends.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-django.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-django.template.loaders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-dns.rdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-docutils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-dynaconf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-enchant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-encodings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-eth_abi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-eth_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-eth_keyfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-eth_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-flex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-fmpy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gadfly.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gevent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.Atk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.Champlain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.Clutter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.GIRepository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.GLib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.GModule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.GObject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.Gdk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.GdkPixbuf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.Gio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.Gst.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.GstAudio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.GstBase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.GstPbutils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.GstTag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.GstVideo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.Gtk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.GtkChamplain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.GtkClutter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.Pango.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.PangoCairo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.cairo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gi.repository.xlib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-google.api_core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-google.cloud.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-google.cloud.storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-google.cloud.translate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gst._gst.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-gtk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-h5py.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-httplib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-httplib2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-idlelib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-imageio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-jedi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-jinja2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-jira.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-jsonschema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-keyring.backends.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-kinterbasdb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-kivy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-langcodes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-lensfunpy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-lib2to3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-libaudioverse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-llvmlite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-logilab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-lxml.etree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-lxml.isoschematron.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-lxml.objectify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-lz4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-mako.codegen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-markdown.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-matplotlib.backends.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-matplotlib.numerix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-matplotlib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-mpl_toolkits.basemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-nacl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-names.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-ncclient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-netCDF4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-nltk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-numba.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-numpy.core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-numpy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-openpyxl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-osgeo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-pandas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-paste.exceptions.reporter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-patsy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-phonenumbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-pint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-pinyin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-pkg_resources.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-psychopy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-psycopg2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-pubsub.core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-pycountry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-pycparser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-pydoc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-pyexcelerate.Writer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-pygame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-pygments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-pylint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-pymssql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-pyodbc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-pyopencl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-pyproj.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-pytest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-pythoncom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-pyttsx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-pytz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-pywintypes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-qtawesome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-raven.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-rawpy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-rdflib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-redmine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-regex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-reportlab.lib.utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-reportlab.pdfbase._fontdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-resampy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-scapy.layers.all.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-scipy.io.matlab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-scipy.linalg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-scipy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-scipy.sparse.csgraph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-scipy.special._ellip_harm_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-scipy.special._ufuncs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-selenium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-setuptools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-shapely.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-shelve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-skimage.transform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-sklearn.metrics.cluster.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-sound_lib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-speech_recognition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-sphinx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-sqlalchemy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-sqlite3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-storm.database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-sysconfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-tables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-tcod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-torch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-u1db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-unidecode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-uniseg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-usb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-uvloop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-vtkpython.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-weasyprint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-web3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-win32com.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-wx.lib.activex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-wx.lib.pubsub.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-wx.xrc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-xml.dom.domreg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-xml.dom.html.HTMLDocument.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-xml.etree.cElementTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-xml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-xml.sax.saxexts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-xsge_gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-zeep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/hook-zmq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_find_module_path/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_find_module_path/hook-PyQt4.uic.port_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_find_module_path/hook-PyQt4.uic.port_v3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_find_module_path/hook-PyQt5.uic.port_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_find_module_path/hook-PyQt5.uic.port_v3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_find_module_path/hook-distutils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_find_module_path/hook-site.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-_xmlplus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.Atk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.Champlain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.Clutter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.GIRepository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.GLib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.GModule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.GObject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.Gdk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.GdkPixbuf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.Gio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.Gst.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.GstAudio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.GstBase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.GstPbutils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.GstTag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.GstVideo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.Gtk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.GtkChamplain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.GtkClutter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.Pango.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.PangoCairo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.cairo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.xlib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-setuptools.extern.six.moves.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-six.moves.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-urllib3.packages.six.moves.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-win32com.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/lib/README.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/lib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/lib/modulegraph/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/lib/modulegraph/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/lib/modulegraph/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/lib/modulegraph/find_modules.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/lib/modulegraph/modulegraph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/lib/modulegraph/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/lib/modulegraph/zipio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/pyiboot01_bootstrap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/pyimod01_os_path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/pyimod02_archive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/pyimod03_importers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth__nltk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth__tkinter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_django.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_enchant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_gdkpixbuf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_gi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_gio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_glib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_gstreamer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_gtk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_kivy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_mplconfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_mpldata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_multiprocessing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_osgeo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_pkgres.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_qml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_qt4plugins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_qt5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_qt5plugins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_qt5webengine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_traitlets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_twisted.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_usb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_win32comgenpy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/news/3622.hooks.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/news/3702.hooks.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/news/3708.hooks.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/news/3710.hooks.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/_gitrevision.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/cliutils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/cliutils/archive_viewer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/cliutils/bindepend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/cliutils/grab_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/cliutils/makespec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/cliutils/set_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/git.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/hooks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/hooks/django.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/hooks/gi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/hooks/qt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/hooks/subproc/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/hooks/subproc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/hooks/subproc/django_import_finder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/hooks/win32.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/osx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/release.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/win32/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/win32/icon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/win32/versioninfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/win32/winmanifest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/win32/winresource.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/utils/win32/winutils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/altgraph-0.16.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/altgraph-0.16.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/altgraph-0.16.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/altgraph-0.16.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/altgraph-0.16.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/altgraph-0.16.1.dist-info/zip-safe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/altgraph/Dot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/altgraph/Graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/altgraph/GraphAlgo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/altgraph/GraphStat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/altgraph/GraphUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/altgraph/ObjectGraph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/altgraph/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/macholib-1.11.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/macholib-1.11.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/macholib-1.11.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/macholib-1.11.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/macholib-1.11.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/macholib-1.11.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/macholib-1.11.dist-info/zip-safe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/macholib/MachO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/macholib/MachOGraph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/macholib/MachOStandalone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/macholib/SymbolTable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/macholib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/macholib/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/macholib/_cmdline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/macholib/dyld.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/macholib/dylib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/macholib/framework.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/macholib/itergraphreport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/macholib/mach_o.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/macholib/macho_dump.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/macholib/macho_find.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/macholib/macho_standalone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/macholib/ptypes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/macholib/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/ordlookup/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/ordlookup/oleaut32.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/ordlookup/ws2_32.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/pefile-2019.4.18-py3.7.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/pefile-2019.4.18-py3.7.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/pefile-2019.4.18-py3.7.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/pefile-2019.4.18-py3.7.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/pefile-2019.4.18-py3.7.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/pefile-2019.4.18-py3.7.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/pefile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/peutils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/pywin32_ctypes-0.2.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/pywin32_ctypes-0.2.0.dist-info/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/pywin32_ctypes-0.2.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/pywin32_ctypes-0.2.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/pywin32_ctypes-0.2.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/pywin32_ctypes-0.2.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/core/_winerrors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/core/cffi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/core/cffi/_authentication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/core/cffi/_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/core/cffi/_dll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/core/cffi/_nl_support.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/core/cffi/_resource.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/core/cffi/_system_information.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/core/cffi/_time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/core/cffi/_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/core/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/core/ctypes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/core/ctypes/_authentication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/core/ctypes/_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/core/ctypes/_dll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/core/ctypes/_nl_support.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/core/ctypes/_resource.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/core/ctypes/_system_information.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/core/ctypes/_time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/core/ctypes/_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/pywin32/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/pywin32/pywintypes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/pywin32/win32api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/pywin32/win32cred.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/pywintypes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/tests/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/tests/test_win32api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/tests/test_win32cred.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/win32api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Lib/site-packages/win32ctypes/win32cred.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Scripts/macho_dump.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Scripts/macho_find.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Scripts/macho_standalone.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Scripts/pyi-archive_viewer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Scripts/pyi-bindepend.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Scripts/pyi-grab_version.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Scripts/pyi-makespec.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Scripts/pyi-set_version.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/Scripts/pyinstaller.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.py" beforeDir="false" afterPath="$PROJECT_DIR$/App.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.ui" beforeDir="false" afterPath="$PROJECT_DIR$/App.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/PyQt5/Qt/qml/QtQuick/Controls.2/Fusion/qtquickcontrols2fusionstyleplugin.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainWindow.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,18 +645,17 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MasterScadaViewer$App.coverage" NAME="App Coverage Results" MODIFIED="1559801643575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MasterScadaViewer$main.coverage" NAME="main Coverage Results" MODIFIED="1559804174367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MasterScadaViewer$main.coverage" NAME="main Coverage Results" MODIFIED="1560485457200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            <state relative-caret-position="102">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
-                <element signature="e#70#103#0" />
               </folding>
             </state>
           </provider>
@@ -29,17 +663,49 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thoughts.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mainWindow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="151">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <element signature="e#0#27#0" expanded="true" />
+                <element signature="e#0#42#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/main.exe">
+          <provider selected="true" editor-type-id="LargeFileEditor">
+            <state relative-caret-position="136">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application.spec">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" selection-start-line="8" selection-start-column="22" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -53,20 +719,31 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find># Python library NOT found. Resume searching using alternative methods.</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/depend/bindepend.py" />
         <option value="$PROJECT_DIR$/App.py" />
-        <option value="$PROJECT_DIR$/mainWindow.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/thoughts.md" />
+        <option value="$PROJECT_DIR$/mainWindow.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="948" />
     <option name="width" value="981" />
-    <option name="height" value="1032" />
+    <option name="height" value="522" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -78,6 +755,11 @@
             <path>
               <item name="MasterScadaViewer" type="b2602c69:ProjectViewProjectNode" />
               <item name="MasterScadaViewer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MasterScadaViewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MasterScadaViewer" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -193,87 +875,135 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559801244691</updated>
-      <workItem from="1559801245907" duration="2943000" />
+      <workItem from="1559801245907" duration="7109000" />
+      <workItem from="1559810961926" duration="601000" />
+      <workItem from="1559813052858" duration="6658000" />
+      <workItem from="1559821144433" duration="9778000" />
+      <workItem from="1560059994877" duration="624000" />
+      <workItem from="1560144556174" duration="605000" />
+      <workItem from="1560165175306" duration="1203000" />
+      <workItem from="1560232182774" duration="7000" />
+      <workItem from="1560403770477" duration="3488000" />
+      <workItem from="1560484003097" duration="953000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2943000" />
+    <option name="totallyTimeSpent" value="31026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24939272" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22677596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3285968" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31616342" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3285968" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24939272" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Python Console" order="5" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.3285968" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="SciView" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31616342" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/App.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainWindow.py">
+    <entry file="file://$PROJECT_DIR$/main.spec">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/PyInstaller/depend/bindepend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14586">
+          <caret line="873" column="50" selection-start-line="873" selection-start-column="50" selection-end-line="873" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/App.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="442">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoughts.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/main.exe">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application.spec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" selection-start-line="8" selection-start-column="22" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
-            <element signature="e#70#103#0" />
+            <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
