@@ -1,8 +1,7 @@
 from PyQt5 import QtWidgets
 from App import Ui_MainWindow
 from PyQt5.QtWidgets import QGridLayout, QWidget, QTableWidget, QTableWidgetItem
-import DBConnector
-
+import DBConnectorAPI
 def parseTime(timeStr):
     try:
         data, time = timeStr.split()
@@ -18,17 +17,10 @@ class mainwindow(QtWidgets.QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
-        self.dbconnector = DBConnector.DBConnector()
-        self.dbconnector.connectAll()
-
-        self.central_widget = QWidget(self)
-        self.setCentralWidget(self.central_widget)
-
-        self.grid_layout = QGridLayout()
-        self.central_widget.setLayout(self.grid_layout)
+        self.dbcAPI = DBConnectorAPI.DBCOnnectorAPI()
 
         self.loadAlarmsTable()
-        self.loadDBTable("alarms")
+        self.loadDBTables("ALARMS")
 
     def loadAlarmsTable(self):
         table = QTableWidget(self)
@@ -39,9 +31,9 @@ class mainwindow(QtWidgets.QMainWindow):
         table.horizontalHeaderItem(1).setToolTip("OutputTime")
         table.horizontalHeaderItem(2).setToolTip("Message")
 
-        self.grid_layout.addWidget(table, 0, 0)
+        self.ui.tabsMenu.addTab(table, "Alarms")
 
-        queryResult = self.dbconnector.getAlarms()
+        queryResult = self.dbcAPI.getAlarms()
 
         rowPosition = 0
 
@@ -56,25 +48,38 @@ class mainwindow(QtWidgets.QMainWindow):
 
         table.resizeColumnsToContents()
 
-    def loadDBTable(self, DBAlias):
-        tablesNames = self.dbconnector.getTablesFromDatabase(DBAlias)
+    def loadDBTables(self, DBAlias):
+        tablesNames = self.dbcAPI.getTablesNamesFromDatabase(DBAlias)
 
-        for table in tablesNames:
-            table = "".join(table)
-            print(table)
-            # print(self.getDataFromTable(DBAlias, table))
+        for tableName in tablesNames:
+            tableName = "".join(tableName)
 
-        '''
-        table = QTableWidget(self)
-        table.setColumnCount(3)
+            tableColumns = self.dbcAPI.getColumnsNamesFromTable(DBAlias, tableName)
+
+            table = QTableWidget(self)
+            table.setColumnCount(len(tableColumns))
+
+            i = 0
+            headerLabels = []
+
+            for column in tableColumns:
+                headerLabels.append("".join(column))
+                #table.horizontalHeaderItem(i).setToolTip("".join(column))
+                i = i + 1
+
+
+            table.setHorizontalHeaderLabels(headerLabels)
+            table.resizeColumnsToContents()
+
+            self.ui.tabsMenu.addTab(table, "also Alarms")
+        '''    
         table.setHorizontalHeaderLabels(["Начало", "Конец", "Сообщение"])
 
         table.horizontalHeaderItem(0).setToolTip("InputTime")
         table.horizontalHeaderItem(1).setToolTip("OutputTime")
         table.horizontalHeaderItem(2).setToolTip("Message")
-
-        self.grid_layout.addWidget(table, 0, 0)
-
+        '''
+        '''
         queryResult = self.dbconnector.getAlarms()
 
         rowPosition = 0
@@ -89,7 +94,8 @@ class mainwindow(QtWidgets.QMainWindow):
             rowPosition += 1
 
         table.resizeColumnsToContents()
-'''
+        '''
+
 
 
 

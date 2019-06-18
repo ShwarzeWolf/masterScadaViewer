@@ -30,49 +30,13 @@ class DBConnector:
             if connection[0] == alias:
                 return connection[1]
 
-    def __executeStatement(self, DBalias, statement):
+    def executeStatement(self, DBalias, statement):
         connection = self.getEstablishedConnection(DBalias)
 
         cursor = connection.cursor()
         cursor.execute(statement)
 
         return cursor
-
-    def getAlarms(self):
-        connection = self.getEstablishedConnection('ALARMS')
-
-        cursor = connection.cursor()
-        cursor.execute("select * from MASEVENTDATA")
-
-        return cursor
-
-
-    def getTablesFromDatabase(self, DBAlias):
-        executionCommand = "SELECT RDB$RELATION_NAME FROM RDB$RELATIONS WHERE (RDB$SYSTEM_FLAG <> 1 OR RDB$SYSTEM_FLAG IS NULL) AND RDB$VIEW_BLR IS NULL ORDER BY RDB$RELATION_NAME;"
-
-        connection = self.getEstablishedConnection(DBAlias)
-
-        cursor = connection.cursor()
-        cursor.execute(executionCommand)
-
-        return cursor.fetchall()
-
-    def getDataFromTable(self, DBAlias, tableName):
-        connection = self.getEstablishedConnection(DBAlias)
-
-        cursor = connection.cursor()
-        cursor.execute("select * from " + tableName)
-
-        return cursor.fetchall()
-
-    def getAllDataFromDB(self, DBAlias):
-        tablesNames = self.getTablesFromDatabase(DBAlias)
-
-        for table in tablesNames:
-            table = "".join(table)
-            print(table)
-            print(self.getDataFromTable(DBAlias, table))
-
 
 
 

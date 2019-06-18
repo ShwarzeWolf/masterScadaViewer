@@ -6,4 +6,4 @@ dbc.connectAll()
 #dbc.getTablesFromDatabase("ALARMS")
 #dbc.getDataFromTable("ALARMS", "MASEVENTCHANGES")
 
-dbc.getAllDataFromDB("ALARMS")
+print(dbc.getColumnsNamesFromTable("ALARMS", "MASEVENTCHANGES"))
