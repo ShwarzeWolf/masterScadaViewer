@@ -18,7 +18,7 @@ class Logic:
 
     def loadDBNames(self):
         dbNames = self.dbcAPI.getEstablishedConnectionsNames()
-        return TableCreator.createTable(dbNames, "Databases")
+        return TableCreator.createTable(dbNames, "Available databases")
 
     def loadTablesNames(self, dbAlias):
         tableNames = self.dbcAPI.getTablesNamesFromDB(dbAlias)
