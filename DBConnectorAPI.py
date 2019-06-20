@@ -12,7 +12,7 @@ class DBCOnnectorAPI:
         connectionsNames = []
 
         for connection in self.dbc.connectionsList:
-            connectionsNames.append(connection[0])
+            connectionsNames.append((connection[0], ))
 
         return connectionsNames
 

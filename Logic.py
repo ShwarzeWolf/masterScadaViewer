@@ -1,12 +1,13 @@
 from PyQt5.QtWidgets import QTableWidget, QTableWidgetItem
 import DBConnectorAPI
+import TableCreator
 import os
 
 class Logic:
     def __init__(self):
         self.dbcAPI = DBConnectorAPI.DBCOnnectorAPI()
 
-    def connectToDatabasesInDirectory(self, directoryPath):
+    def connectToDBsInDirectory(self, directoryPath):
         listOfDatabases = []
 
         for filename in os.listdir(directoryPath):
@@ -15,38 +16,13 @@ class Logic:
 
         self.dbcAPI.connectDatabases(listOfDatabases)
 
-    def loadDatabasesNames(self, table):
+    def loadDBNames(self):
         dbNames = self.dbcAPI.getEstablishedConnectionsNames()
+        return TableCreator.createTable(dbNames)
 
-        table.setColumnCount(1)
-        rowPosition = 0
-
-        for name in dbNames:
-            table.insertRow(rowPosition)
-            table.setItem(rowPosition, 0, QTableWidgetItem(name))
-            rowPosition += 1
-
-        table.resizeColumnsToContents()
-
-
-    def loadTablesNames(self, dbAlias, table):
-        tablenames = self.dbcAPI.getTablesNamesFromDB(dbAlias)
-
-        table.setColumnCount(1)
-        rowPosition = 0
-
-
-        for tableName in tablenames:
-            tableName = "".join(tableName)
-            table.insertRow(rowPosition)
-
-            table.setItem(rowPosition, 0, QTableWidgetItem(tableName))
-            rowPosition += 1
-
-        table.resizeColumnsToContents()
-
-
-
+    def loadTablesNames(self, dbAlias):
+        tableNames = self.dbcAPI.getTablesNamesFromDB(dbAlias)
+        return TableCreator.createTable(tableNames)
 
     '''
     def loadAlarmsTable(self, table):
