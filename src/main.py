@@ -1,5 +1,5 @@
 from PyQt5 import QtWidgets
-import userAPI
+from src.userInterface import userAPI
 import sys
 
 app = QtWidgets.QApplication([])

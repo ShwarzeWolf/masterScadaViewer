@@ -1,4 +1,5 @@
-import DBConnector
+from src.DB import DBConnector
+
 
 class DBCOnnectorAPI:
     def __init__(self):

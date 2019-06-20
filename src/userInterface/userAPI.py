@@ -1,8 +1,7 @@
 from PyQt5 import QtWidgets
-from App import Ui_MainWindow
-from PyQt5.QtWidgets import  *
-from PyQt5.QtWidgets import QGridLayout, QWidget, QTableWidget, QFileDialog, QTableWidgetItem
-import Logic
+from src.userInterface.App import Ui_MainWindow
+from PyQt5.QtWidgets import QFileDialog
+from src.DataProceedure import Logic
 from functools import partial
 
 class userAPI(QtWidgets.QMainWindow):

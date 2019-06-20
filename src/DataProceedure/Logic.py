@@ -1,6 +1,5 @@
-from PyQt5.QtWidgets import QTableWidget, QTableWidgetItem
-import DBConnectorAPI
-import TableCreator
+from src.DataProceedure import TableCreator
+from src.DB import DBConnectorAPI
 import os
 
 class Logic:
