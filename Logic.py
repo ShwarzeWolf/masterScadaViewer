@@ -18,11 +18,16 @@ class Logic:
 
     def loadDBNames(self):
         dbNames = self.dbcAPI.getEstablishedConnectionsNames()
-        return TableCreator.createTable(dbNames)
+        return TableCreator.createTable(dbNames, "Databases")
 
     def loadTablesNames(self, dbAlias):
         tableNames = self.dbcAPI.getTablesNamesFromDB(dbAlias)
-        return TableCreator.createTable(tableNames)
+        return TableCreator.createTable(tableNames, dbAlias)
+
+    def loadData(self, dbAlias, tableName):
+        data = self.dbcAPI.getDataFromTable(dbAlias, tableName)
+        dataColumns = self.dbcAPI.getColumnsNamesFromTable(dbAlias, tableName)
+        return TableCreator.createTable(data, dataColumns)
 
     '''
     def loadAlarmsTable(self, table):
@@ -101,15 +106,6 @@ class Logic:
         table.resizeColumnsToContents()
         '''
 
-
-def parseTime(timeStr):
-    try:
-        data, time = timeStr.split()
-        time = time.split('.')[0]
-    except:
-        time = ""
-
-    return "    " + time + "    "
 
 def parseDirectoryPath(dirStr):
     return dirStr.replace('/', '\\')

@@ -2,6 +2,7 @@ from PyQt5 import QtWidgets
 from App import Ui_MainWindow
 from PyQt5.QtWidgets import QGridLayout, QWidget, QTableWidget, QFileDialog, QTableWidgetItem
 import Logic
+from functools import partial
 
 class userAPI(QtWidgets.QMainWindow):
     def __init__(self):
@@ -26,26 +27,10 @@ class userAPI(QtWidgets.QMainWindow):
 
     def loadTablesFromDB(self, chosenDB):
         table = self.logic.loadTablesNames(chosenDB.text())
-        table.itemDoubleClicked.connect(self.loadTable)
+        table.itemDoubleClicked.connect(partial(self.loadTable, chosenDB.text()))
 
         self.ui.layout.addWidget(table)
 
-    def loadTable(self, chosenTable):
-        print("hi")
-
-    '''
-    def loadAlarmsTable(self):
-        table = QTableWidget(self)
-
-        table = self.logic.loadAlarmsTable(table)
-
-        self.ui.tabsMenu.addTab(table, "Alarms")
-
-    def loadDataTables(self):
-        table = QTableWidget(self)
-
-        table = self.logic.loadAlarmsTable(table)
-        self.ui.tabsMenu.addTab(table, "Data")
-
-    '''
-
+    def loadTable(self, chosenDB, chosenTable):
+        table = self.logic.loadData(chosenDB, chosenTable.text())
+        self.ui.layout.addWidget(table)

@@ -1,9 +1,4 @@
-import DBConnector
+import Logic
+logic = Logic.Logic()
+logic.connectToDBsInDirectory("C:\\Users\\1358365\\Desktop\\work")
 
-dbc = DBConnector.DBConnector()
-dbc.connectAll()
-
-#dbc.getTablesFromDatabase("ALARMS")
-#dbc.getDataFromTable("ALARMS", "MASEVENTCHANGES")
-
-print(dbc.getColumnsNamesFromTable("ALARMS", "MASEVENTCHANGES"))
